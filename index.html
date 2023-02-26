@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LadingPage</title>
+    <link rel="icon" href="build/img/logo_page.svg">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="build/css/app.css" />
+  </head>
+  <body class="body">
+    <header class="contenedor header">
+      <div class="header-contenedor">
+        <a href="index.html"><h1><span>jungle</span> House</h1></a>
+        <div class="movile-menu">
+          <img src="build/img/icon_hambur.webp" alt="Icono menú responsive" />
+        </div>
+        <nav class="header-nav">
+          <div class="nav-navegacion">
+            <a href="#nosotros" class="navegacion-link">Quienes Somos</a>
+            <a href="#shop" class="navegacion-link">comercio</a>
+            <a href="#shop" class="navegacion-link">artículos</a>
+            <a href="#contacto" class="navegacion-link">contacto</a>
+          </div>
+          <div class="nav-control">
+            <img class="btn-search" src="build/img/logo_search.svg" alt="" />
+            <div class="cartera-bg">
+              <img src="build/img/logo_cartera.svg" alt="" />
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- HEADER -->
+
+    <section class="contenedor home" id="home">
+      <div class="home-contenedor">
+        <h1 class="title1">amuebla los interiores de tu casa con</h1>
+        <h1 class="title2">
+          un toque de estilo <span> jungle</span>
+          <img src="build/img/logo_monkey.svg" alt="" />
+        </h1>
+        <div class="fondo-parrafo">
+          <p>
+            En JungleHouse podrá encontrar objetos de diseño únicos para sus muebles únicos, transformando su hogar en un verdadero bosque frondoso.
+          </p>
+        </div>
+        <picture>
+          <source srcset="build/img/portada_11.avif" type="image/avif" />
+          <source srcset="build/img/portada_11.webp" type="image/webp" />
+          <img
+            loading="lazy"
+            width="200"
+            height="300"
+            src="build/img/portada_11.jpg"
+            alt=""
+          />
+        </picture>
+      </div>
+    </section>
+    <!-- home -->
+
+    <section class="contenedor buttonhome">
+      <div class="buttonhome-contenedor">
+        <div class="cardc">
+          <div class="card-button">
+            <h2>envío gratuito</h2>
+          </div>
+          <p>
+            Realmente entendemos a nuestros clientes, por lo que brindamos un servicio gratuito en cualquier lugar de manera rápida y segura.
+          </p>
+        </div>
+        <!-- card -->
+        <div class="cardc">
+          <div class="card-button">
+            <h2>mejores ofertas</h2>
+          </div>
+          <p>
+            Forniamo il miglior prezzo e di qualità rispetto gli altri negozi
+            con un ampio catalogo di scelta.
+          </p>
+        </div>
+        <!-- card -->
+        <div class="cardc">
+          <div class="card-button">
+            <h2>garantía de 5 años</h2>
+          </div>
+          <p>
+            Creemos en nuestro trabajo, contamos con una garantía válida por 5 años a partir de la fecha de entrega del producto.
+          </p>
+        </div>
+        <!-- card -->
+      </div>
+    </section>
+    <!-- buttonhome -->
+
+    <section class="contenedor beforCarrucel" id="shop">
+      <div class="beforCarrucel-contenedor">
+        <h1>calidad premium y diseño único</h1>
+        <p>
+          Estamos brindando productos de alta calidad y durabilidad que harán de tu hogar tu rincón "salvaje" y natural, como si estuvieras en medio de un bosque tropical.
+        </p>
+      </div>
+    </section>
+    <!-- beforCarrucel -->
+
+    <section class="contenedor carrucel">
+      <div class="carrucel-contenedor">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                
+              <div class="contenedor-ccard">
+                <div class="carrucel-card">
+                  <div class="ccard-foto">
+                    <img src="build/img/lampara.svg" alt="" />
+                  </div>
+                  <div class="ccard-text">
+                    <h3>Lampara</h3>
+                    <h2>Lampada Vinatge Cam</h2>
+                    <p>Material de latón y oro antiguo.</p>
+                  </div>
+                </div><!-- carrucel - card -->
+                <div class="carrucel-card">
+                  <div class="ccard-foto">
+                    <img src="build/img/sillon.svg" alt="" />
+                  </div>
+                  <div class="ccard-text">
+                    <h3>Silla</h3>
+                    <h2>silla wam</h2>
+                    <p>Volúmenes tapizados y personalizados</p>
+                  </div>
+                </div><!-- carrucel - card -->
+                <div class="carrucel-card">
+                  <div class="ccard-foto">
+                    <img src="build/img/sofacama.svg" alt="" />
+                  </div>
+                  <div class="ccard-text">
+                    <h3>Cama</h3>
+                    <h2>sofa cama jungle</h2>
+                    <p>Sofá cama malabares</p>
+                  </div>
+                </div><!-- carrucel - card -->
+              </div>
+
+            </div>
+            <div class="carousel-item">
+              <div class="contenedor-ccard">
+                <div class="carrucel-card">
+                  <div class="ccard-foto">
+                    <img src="build/img/lampara.svg" alt="" />
+                  </div>
+                  <div class="ccard-text">
+                    <h3>Lampara</h3>
+                    <h2>Lampada Vinatge Cam</h2>
+                    <p>Material de latón y oro antiguo.</p>
+                  </div>
+                </div><!-- carrucel - card -->
+                <div class="carrucel-card">
+                  <div class="ccard-foto">
+                    <img src="build/img/sillon.svg" alt="" />
+                  </div>
+                  <div class="ccard-text">
+                    <h3>Silla</h3>
+                    <h2>silla wam</h2>
+                    <p>Volúmenes tapizados y personalizados</p>
+                  </div>
+                </div><!-- carrucel - card -->
+                <div class="carrucel-card">
+                  <div class="ccard-foto">
+                    <img src="build/img/sofacama.svg" alt="" />
+                  </div>
+                  <div class="ccard-text">
+                    <h3>Cama</h3>
+                    <h2>sofa cama jungle</h2>
+                    <p>Sofá cama malabares</p>
+                  </div>
+                </div><!-- carrucel - card -->
+              </div>
+            </div>
+          <button
+            class="carousel-control-prev "
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="btn-control" aria-hidden="true">
+                <img src="build/img/prev.svg" alt="">
+            </span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="btn-control" aria-hidden="true">
+                <img src="build/img/next.svg" alt="">
+            </span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section><!--carrucel-->
+
+    <section class="contenedor nextcarrucel">
+        <div class="nextcarrucel-contenedor">
+            <h1>lo que dicen nuestros <span>clientes</span></h1>
+            <p>La satisfacción del cliente es nuestra prioridad. Por eso garantizamos un alto nivel de servicio porque usted es la base de nuestro éxito.</p>
+        </div>
+    </section>
+
+    <section class="contenedor carrucelTest">
+      <div class="carrucelTest-contenedor">
+
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+
+              <div class="contenedor-cardTest">
+
+                <div class="card-test">
+                  <img class="comilla" src="build/img/icon_comillas.svg" alt="">
+                  <p>Excelente calidad, precio y servicio! Recomiendo encarecidamente esta tienda para el diseño! Fueron muy amables.</p>
+                  <div class="info-card">
+                    <div class="perfil">
+                    <img src="build/img/perfil_test1.svg" alt="">
+                    <p>Alice Nadari</p>
+                    </div>
+                    <div class="puntuacion">
+                      <img src="build/img/estrella.svg" alt="">
+                      <p>3.5</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="card-test">
+                  <img class="comilla" src="build/img/icon_comillas.svg" alt="">
+                  <p>Estamos más que satisfechos con la experiencia que tuvimos con JungleHouse. La atención a los detalles más pequeños y la atención los distingue.</p>
+                  <div class="info-card">
+                    <div class="perfil">
+                    <img src="build/img/perfil2.svg" alt="">
+                    <p>Ciccarelli</p>
+                    </div>
+                    <div class="puntuacion">
+                      <img src="build/img/estrella.svg" alt="">
+                      <p>3.5</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="card-test">
+                  <img class="comilla" src="build/img/icon_comillas.svg" alt="">
+                  <p>La pasión por su trabajo y la atención a las necesidades del cliente son sus puntos fuertes.</p>
+                  <div class="info-card">
+                    <div class="perfil">
+                    <img src="build/img/perfil2.svg" alt="">
+                    <p>Carlo Montanari</p>
+                    </div>
+                    <div class="puntuacion">
+                      <img src="build/img/estrella.svg" alt="">
+                      <p>3.5</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="carousel-item">
+             
+              <div class="contenedor-cardTest">
+
+                <div class="card-test">
+                  <img class="comilla" src="build/img/icon_comillas.svg" alt="">
+                  <p>Excelente calidad, precio y servicio! Recomiendo encarecidamente esta tienda para el diseño! Fueron muy amables.</p>
+                  <div class="info-card">
+                    <div class="perfil">
+                    <img src="build/img/perfil_test1.svg" alt="">
+                    <p>Alice Nadari</p>
+                    </div>
+                    <div class="puntuacion">
+                      <img src="build/img/estrella.svg" alt="">
+                      <p>3.5</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="card-test">
+                  <img class="comilla" src="build/img/icon_comillas.svg" alt="">
+                  <p>Estamos más que satisfechos con la experiencia que tuvimos con JungleHouse. La atención a los detalles más pequeños y la atención los distingue.</p>
+                  <div class="info-card">
+                    <div class="perfil">
+                    <img src="build/img/perfil2.svg" alt="">
+                    <p>Ciccarelli</p>
+                    </div>
+                    <div class="puntuacion">
+                      <img src="build/img/estrella.svg" alt="">
+                      <p>3.5</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="card-test">
+                  <img class="comilla" src="build/img/icon_comillas.svg" alt="">
+                  <p>La pasión por su trabajo y la atención a las necesidades del cliente son sus puntos fuertes.</p>
+                  <div class="info-card">
+                    <div class="perfil">
+                    <img src="build/img/perfil2.svg" alt="">
+                    <p>Carlo Montanari</p>
+                    </div>
+                    <div class="puntuacion">
+                      <img src="build/img/estrella.svg" alt="">
+                      <p>3.5</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="contenedor vitrina" id="nosotros">
+      <div class="vitrina-contenedor">
+
+        <div class="vitrina-iz">
+          <h1>realizamos material de alta calidad</h1>
+          <p>Nuestro compromiso con la cuidadosa selección de materiales de primera elección y proveedores que garanticen seriedad y cuidado en su trabajo, hacen que el cliente de JungleHouse tenga a su disposición una amplia gama de especificaciones.</p>
+          <div class="vitrinabtn">
+           <p> saber más </p>
+          </div>
+          <img src="build/img/portada_2.webp" alt="">
+        </div><!-- iz -->
+        <div class="vitrina-de">
+          <div class="cualidades">
+            <div class="cuali">
+              <h2>20+</h2>
+              <p>Años de experiencia</p>
+            </div>
+            <div class="cuali">
+              <h2>483</h2>
+              <p>Clientes felices</p>
+            </div>
+            <div class="cuali">
+              <h2>150+</h2>
+              <p>Proyectos completados</p>
+            </div>
+          </div>
+          <img src="build/img/portada_3.webp" alt="">
+        </div><!-- de -->
+
+      </div><!-- vitrina-conteendor -->
+    </section>
+
+    <section class="contenedor antesFooter" id="contacto">
+      <div class="antesFooter-contenedor">
+        <h1>suscribase a nuestro boletín</h1>
+        <p class="subtitle">Regístrate ahora en la nueva web de JungleHouse y recibirás el código del 15% de descuento en tu primera compra por email.</p>
+        <div class="barra">
+          <div class="barra-botton">
+            <p>Únete a nosotros</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="contenedor footer">
+      <div class="footer-contenedor">
+        <div class="footer-iz">
+          <h1><span>jungle</span> House</h1>
+          <p>En JungleHouse podrás encontrar objetos de diseño únicos para tus muebles, transformando tu hogar en un auténtico bosque frondoso.</p>
+        </div><!-- Footer-iz -->
+        <div class="footer-de">
+          <div class="jungle">
+            <h2>JungleHouse</h2>
+            <a href="#" class="jungle-link">Recientes</a>
+            <a href="#" class="jungle-link">Oficina</a>
+            <a href="#" class="jungle-link">permanecer</a>
+            <a href="#" class="jungle-link">Cámara</a>
+          </div><!--jungle-->
+          <div class="azienda">
+            <h2>Agencia</h2>
+            <a href="#" class="jungle-link">Artículos</a>
+            <a href="#" class="jungle-link">Políticas</a>
+            <a href="#" class="jungle-link">Recervas</a>
+            <a href="#" class="jungle-link">Preguntas</a>
+          </div><!--azienda-->
+          <div class="social">
+            <h2>Social</h2>
+            <a href="#" class="jungle-link">Facebook</a>
+            <a href="#" class="jungle-link">Instagram</a>
+            <a href="#" class="jungle-link">Twitter</a>
+          </div><!--social-->
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="build/js/bundle.min.js"></script>
+  </body>
+</html>
